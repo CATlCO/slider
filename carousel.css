@@ -1,0 +1,102 @@
+body {
+  background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=1c1c1cff&noise=707070&density=79&opacity=6');
+}
+#slide1 { background-image: url('pics/pic1.jpeg'); }
+#slide2 { background-image: url('pics/pic2.jpeg'); }
+#slide3 { background-image: url('pics/pic3.jpeg'); }
+#slide4 { background-image: url('pics/pic4.jpeg'); }
+#slide5 { background-image: url('pics/pic5.jpeg'); }
+#slide6 { background-image: url('pics/pic6.jpeg'); }
+#slide7 { background-image: url('pics/pic7.jpeg'); }
+#slide8 { background-image: url('pics/pic8.jpeg'); }
+#slide9 { background-image: url('pics/pic9.jpeg'); }
+#slide10 { background-image: url('pics/pic1.jpeg'); }
+
+.container { 
+  width: 80%;
+  margin: 50px auto;
+}
+.slider {
+  width: 1000px;
+  height: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.slides {
+  width: 10000px;
+  height: 500px;
+}
+.slide {
+  background-size: cover;
+  width: 1000px;
+  height: 500px;
+  float: left;
+  /*display: none;*/
+}
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50px;
+  position: absolute;
+  top: 35%;
+  display: none;
+}
+.left {
+  left: 18%;
+}
+.right {
+  right: 18%;
+}
+.thumbslides {
+  width: 1000px;
+  height: 100px;
+}
+.thumbslide {
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.arrow {
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+}
+.arrow-right {
+  border-left: 40px solid rgba(198, 198, 201, 0.5);
+  float: right;
+}
+.arrow-right:hover {
+  border-left: 40px solid rgba(198, 198, 201, 0.8);
+}
+.arrow-left {
+  border-right:40px solid rgba(198, 198, 201, 0.5);
+  float: left;
+}
+.arrow-left:hover {
+  border-right: 40px solid rgba(198, 198, 201, 0.8);
+}
+.navigation {
+  margin: 0 auto;
+  margin-top: -300px;
+  width: 1000px;
+}
+.dots {
+  margin: 0 auto;
+  margin-top: 230px;
+  text-align: center;
+}
+.dot {
+  display: inline-block;
+  margin: 20px;
+  width: 10px;
+  height: 10px;
+  border: 3px solid rgba(198, 198, 201, 1);
+  border-radius: 20px;
+}
+.active {
+  background-color: rgba(198, 198, 201, 1);
+}
+.number {
+  color: red;
+}
